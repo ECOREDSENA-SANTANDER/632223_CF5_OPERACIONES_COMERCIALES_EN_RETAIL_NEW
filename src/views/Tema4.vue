@@ -17,12 +17,12 @@
             .col-lg-6.col-xl.mb-4.mb-xl-0
               .tarjeta-numerada.color-acento-contenido.p-5
                 .tarjeta-numerada__numero
-                  .h2 1
+                  .h2 a
                 p.mb-0 El protocolo institucional tiene unas reglas más estrictas reguladas por ley, mientras que el protocolo empresarial, se rige por costumbres y normas de urbanidad clásicas.
             .col-lg-6.col-xl.mb-4.mb-xl-0
               .tarjeta-numerada.color-acento-contenido.p-5
                 .tarjeta-numerada__numero
-                  .h2 2
+                  .h2 b
                 p.mb-4 El protocolo internacional se caracteriza por la relación de culturas distintas y la adecuación del protocolo a ello.
   
       p A la hora de formalizar dichas relaciones y eventos, es importante conocer el protocolo, es decir, el código que regula y facilita la interrelación. 

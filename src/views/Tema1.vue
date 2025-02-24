@@ -7,18 +7,18 @@
           span 1
         h1 Definiciones en el #[em Retail]
   
-      p.mb-5 En este proceso de aprendizaje, en torno a la atención al cliente es bueno precisar y/o recordar ciertos conceptos que nos servirán de insumo para el desarrollo temático.
+      p.mb-5 En este proceso de aprendizaje, en torno a la atención al cliente es bueno precisar y / o recordar ciertos conceptos que nos servirán de insumo para el desarrollo temático.
   
       .mb-4.d-flex.ps-lg-0
         .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
-          h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Mercadeo Mix
+          h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Mercadeo #[em Mix]
           img.icon(src='@/assets/curso/temas/icon.svg') 
   
       .row.justify-content-center.align-items-center.mb-5
         .col-8.col.md-8.col-lg-4
           img.p-2(src='@/assets/curso/temas/tema1/imagen1.png', alt='')
         .col-sm-12.col-md-12.col-lg-4.bgrosado.borde-redondo
-          p.p-3 En la dinámica del mercado, el Mercadeo Mix o mezcla, tiene como objetivo analizar la conducta de los consumidores, clientes, usuarios y compradores lo cual genera acciones de satisfacción a sus necesidades basándose en cuatro componentes principales, también conocidos como las 4P: #[b Plaza, Producto, Precio y Promoción,] las cuales veremos a continuación:
+          p.p-3 En la dinámica del mercado, el Mercadeo #[em Mix] o mezcla, tiene como objetivo analizar la conducta de los consumidores, clientes, usuarios y compradores lo cual genera acciones de satisfacción a sus necesidades basándose en cuatro componentes principales, también conocidos como las 4P: #[b Plaza, Producto, Precio y Promoción,] las cuales se presentan a continuación:
   
       .row.fondo1.align-items-center.p-3(data-aos="fade-down")
         .col-lg-12.col-md-12.col-12.px-lg-5.px-4
@@ -30,7 +30,7 @@
                 .col-lg-7.col-md-12.col-sm-12
                   h4.mb-4 Producto
                   p.mb-4 El mercado es todo lo que se ofrece para su consecución, uso o consumo y que puede satisfacer las necesidades o deseos de los clientes.
-                  p.mb-4 Las decisiones que se tomen al respecto incluyen la formulación y presentación del producto, el #[em packaging] (empaquetado) el desarrollo de la marca-producto, etc.
+                  p.mb-4 Las decisiones que se tomen al respecto incluyen la formulación y presentación del producto, el #[em packaging] (empaquetado) el desarrollo de la marca - producto, etc.
                 .col-lg-4.col-md-6.col-9
                   img(alt="" src="@/assets/curso/temas/tema1/sly1-1.png")
               .row.justify-content-center.p-4
@@ -75,7 +75,7 @@
   
       .row.justify-content-center.align-items-center.mb-5
         .col-sm-12.col-md-12.col-lg-5.bgazulclaro.borde-redondo
-          p.p-3 La omnicanalidad es una estrategia de #[em marketing] que busca proporcionar una experiencia integral y coherente a los clientes, utilizando una combinación de canales #[em online] y #[em offline]. En lugar de tratar cada canal de manera aislada, la omnicanalidad se centra en integrar todos los puntos de contacto disponibles para el cliente, como redes sociales (Facebook, Instagram), aplicaciones de mensajería (WhatsApp), correo electrónico, sitios #[em web, blogs] y otros medios.
+          p.p-3 La omnicanalidad es una estrategia de marketing que busca proporcionar una experiencia integral y coherente a los clientes, utilizando una combinación de canales #[em online] y #[em offline]. En lugar de tratar cada canal de manera aislada, la omnicanalidad se centra en integrar todos los puntos de contacto disponibles para el cliente, como redes sociales (Facebook, Instagram), aplicaciones de mensajería (WhatsApp), correo electrónico, sitios #[em web, blogs] y otros medios.
         .col-8.col.md-8.col-lg-3
           img.p-2(src='@/assets/curso/temas/tema1/imagen3.png', alt='')
   

@@ -204,13 +204,12 @@ export default {
       referencia:
         'Gambarota, D. M., & Lorda, M. A. (2017). El turismo como estrategia de desarrollo local. Revista geográfica venezolana, 58(2), 346-359. ',
       tipo: 'Libro',
-      link:
-        'https://books.google.es/books?hl=es&lr=&id=2q5JDwAAQBAJ&oi=fnd&pg=PT24&dq=manejos+de+inventarios&ots=ljO-aSPDk3&sig=heE07m3Xxc8GrgDv0poRsUKwVx8#v=onepage&q=manejos%20de%20inventarios&f=false ',
+      link: 'https://www.redalyc.org/pdf/3477/347753793006.pdf',
     },
     {
       tema: 'Técnicas de servicio al cliente',
       referencia:
-        'Vélez Maya, Tulio. LogíStica Empresarial: Gestión Eficiente Del Flujo de Suministros. ',
+        'Vélez Maya, Tulio. Logística Empresarial: Gestión Eficiente Del Flujo de Suministros. ',
       tipo: 'Libro',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_ebooks0003578&context=L&vid=SENA&lang=es_ES&search_scope=sena_completo&adaptor=Local%20Search%20Engine&tab=sena_completo&query=any%2Ccontains%2Cmanejo%20%20de%20inventarios&offset=0 ',
@@ -306,9 +305,9 @@ export default {
       link: '',
     },
     {
-      referencia: 'Protocolo. Claves para su gestión. (s. f.).',
-      link:
-        'https://www.unisabana.edu.co/feria-del-libro-2018/protocolo-claves-para-su-gestion/',
+      referencia:
+        'Rodrigues N, (21 de enero 2023). Qué es un protocolo empresarial, su importancia y ejemplos.',
+      link: 'https://blog.hubspot.es/sales/protocolo-empresarial',
     },
   ],
   creditos: [
@@ -330,6 +329,40 @@ export default {
     {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
+        {
+          nombre: 'Esperanza Cardona Grisales',
+          cargo: 'Instructora',
+          centro:
+            'Centro de Gestión Tecnológica de Servicios CGTS - Regional Valle',
+        },
+        {
+          nombre: 'Jaime Alberto Pérez Posada',
+          cargo: 'Instructor',
+          centro: 'Centro de Comercio - Regional Antioquia',
+        },
+        {
+          nombre: 'Zvi Daniel Grosman',
+          cargo: 'Diseñador instruccional',
+          centro: 'Centro Agropecuario La Granja  - Regional Tolima',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Revisora metodológica y pedagógica',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor Pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Revisión y corrección de estilo',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
+        },
         {
           nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Diseñadora instruccional',

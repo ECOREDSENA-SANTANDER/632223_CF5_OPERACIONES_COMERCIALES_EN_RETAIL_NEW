@@ -23,23 +23,23 @@
           ol.lista-ol--cuadro.lista-ol--separador.fa-ol
             li 
               .lista-ol--cuadro__vineta
-                span.texto-azul #[b 1]
+                span.text-black #[b a]
               span.mb-0 Siempre hay que identificar las necesidades, deseos y expectativas de los clientes. 
             li 
               .lista-ol--cuadro__vineta
-                span.texto-azul #[b 2]
+                span.text-black #[b b]
               span.mb-0 Planificar el servicio en función de las necesidades, manifestando y exponiendo al cliente las posibilidades existentes que tiene la organización comercial para cubrir sus necesidades y expectativas cumpliendo con los requerimientos exigidos. 
             li 
               .lista-ol--cuadro__vineta
-                span.texto-azul #[b 3]
+                span.text-black #[b c]
               span.mb-0 Se debe prestar el servicio de acuerdo con lo diseñado en función de los requerimientos y con los procesos acordados. 
             li 
               .lista-ol--cuadro__vineta
-                span.texto-azul #[b 4]
+                span.text-black #[b d]
               span.mb-0 Se debe evaluar la prestación del servicio teniendo en cuenta las medidas internas y externas a través de indicadores y parámetros del servicio de calidad. 
             li 
               .lista-ol--cuadro__vineta
-                span.texto-azul #[b 5]
+                span.text-black #[b e]
               span.mb-0 Para las organizaciones es importante tramitar las quejas y los clientes perdidos dando respuesta inmediata a la queja y buscando estrategias para recuperación de clientes prometiéndoles una solución a su insatisfacción.  
             li
   
@@ -63,15 +63,15 @@
                 ol.lista-ol--cuadro.lista-ol--separador.fa-ol
                   li 
                     .lista-ol--cuadro__vineta
-                      span.texto-azul #[b 1]
+                      span.text-black #[b a]
                     span.mb-0 Se concierta una entrevista, dando como excusa, por ejemplo, que se está haciendo una auditoría de calidad.
                   li 
                     .lista-ol--cuadro__vineta
-                      span.texto-azul #[b 2]
+                      span.text-black #[b b]
                     span.mb-0 Se pregunta al cliente qué quiere que se le pregunte.  
                   li 
                     .lista-ol--cuadro__vineta
-                      span.texto-azul #[b 3]
+                      span.text-black #[b c]
                     span.mb-0 Se determinan los atributos, pidiendo su valoración. Se señalan los puntos fuertes y débiles y, finalmente, se le pide que otorgue un orden de prioridad.
                   li 
         .col-sm-12.col-md-12.col-lg-6.mb-cus
@@ -141,7 +141,7 @@
   
       .row.justify-content-center
         .col-lg-10
-          PasosA.color-acento-contenido.mb-5(tipo="n")
+          PasosA.color-acento-contenido.mb-5(tipo="l")
             .row.align-items-center
               .col-auto
                 figure(data-aos="zoom-in")
@@ -179,7 +179,7 @@
         .col-8.col-md-8.col-lg-4
           img.p-1(src='@/assets/curso/temas/tema5/imagen6.png', alt='')
         .col-sm-12.col-md-12.col-lg-4
-          p.bgrosado.borde-redondo.p-3 Hay que tener en cuenta que para posicionar un producto en el mercado se debe estudiar si hay demanda, existen mucha información sobre estudio de mercado, este estudio cobra importancia porque analiza la satisfacción del cliente ya que permite averiguar si el producto le puede interesar al cliente objetivo, una pregunta que se debe hacer en este estudio es que precio está dispuesto a pagar el cliente o usuario por el producto o servicio. 
+          p.bgrosado.borde-redondo.p-3 Hay que tener en cuenta que para posicionar un producto en el mercado se debe estudiar si hay demanda, existe mucha información sobre estudio de mercado, este estudio cobra importancia porque analiza la satisfacción del cliente ya que permite averiguar si el producto le puede interesar al cliente objetivo, una pregunta que se debe hacer en este estudio es que precio está dispuesto a pagar el cliente o usuario por el producto o servicio. 
   
       .mb-5.d-flex.ps-lg-0
         .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
@@ -191,7 +191,7 @@
           .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5
                 .bloque-texto-g__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/imagen7.png')})`}")
                 .bloque-texto-g__texto.p-4
-                  p.mb-0 En la historia reciente las encuestas no son muy bien recibidas ya que, debido a que la norma ISO 9001 obliga a todas las empresas medir la satisfacción del cliente, esto ha obligado a que las empresas envíen por correo la encuesta a los clientes, esta forma de encuesta no es efectiva porque según las estadísticas solamente el 5% de los encuestados responde las preguntas, son efectivas en el sentido que podemos hacer un análisis y darnos cuenta de aspectos que no hemos tenido en cuenta para la satisfacción del cliente. 
+                  p.mb-0 En la historia reciente las encuestas no son muy bien recibidas ya que, debido a que la norma ISO 9001 obliga a todas las empresas medir la satisfacción del cliente, esto ha obligado a que las empresas envíen por correo la encuesta a los clientes, esta forma de encuesta no es efectiva porque según las estadísticas solamente el 5 % de los encuestados responde las preguntas, son efectivas en el sentido que podemos hacer un análisis y darnos cuenta de aspectos que no hemos tenido en cuenta para la satisfacción del cliente. 
   
       p.mb-4 Consultando las siguientes normas, se puede obtener una buena información en las encuestas:
   
@@ -200,19 +200,19 @@
           ol.lista-ol--cuadro.lista-ol--separador.fa-ol
             li 
               .lista-ol--cuadro__vineta
-                span.texto-azul #[b A]
+                span.text-black #[b a]
               span.mb-0 Realice una buena segmentación de clientes, es un error enviar la misma encuesta a trabajadores que desempeñan diferentes funciones y no se conocen entre ellos, es importante elaborar diferentes encuestas teniendo en cuenta el tamaño de la empresa. No las envíe la encuesta a la vez, hay que tomarse el tiempo y hacerlo por separado.
             li 
               .lista-ol--cuadro__vineta
-                span.texto-azul #[b B]
+                span.text-black #[b b]
               span.mb-0 Cree una segmentación por departamentos ya que pueden salir preguntas por cada uno de ellos, las probabilidades de que no contesten las encuestas son grandes ya que si se asigna a una sola persona que vaya a cada uno de los departamentos no esté dispuesta a ir por toda la empresa y no se sacaría una buena muestra, además las posibilidades de que se pierda el documento por el camino son elevadas, lo recomendable es que se asigne a una persona por departamento para la aplicación de la encuesta.
             li 
               .lista-ol--cuadro__vineta
-                span.texto-azul #[b C]
+                span.text-black #[b c]
               span.mb-0 Primero se deben hacer preguntas generales, en las siguientes encuestas profundice en los temas que provocaron diferencias en la opinión, si después de aplicar la primera encuesta obtiene una buena puntuación no hace falta realizar otra .
             li 
               .lista-ol--cuadro__vineta
-                span.texto-azul #[b D]
+                span.text-black #[b d]
               span.mb-0 Haga encuestas telefónicas siempre que pueda y tenga los medios adecuados. Los usuarios o clientes siempre estarán más dispuestos a contestar a una persona que a un frío papel.  
             li 
         .col-10.col-md-6.col-lg-4

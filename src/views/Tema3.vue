@@ -160,38 +160,38 @@
         .col-lg-4.col-xl.mb-4.mb-xl-0
           .tarjeta-numerada.color-acento-contenido.p-5
             .tarjeta-numerada__numero
-              .h2 1
+              .h2 a
             p.mb-0 Se requiere en las pautas de actuación atender siempre la llamada de forma relajada sin perder la calma y transmitiendo seguridad y confianza a la persona usuaria del servicio.
   
         .col-lg-4.col-xl.mb-4.mb-xl-0
           .tarjeta-numerada.color-acento-contenido.p-5
             .tarjeta-numerada__numero
-              .h2 2
+              .h2 b
             p.mb-5 Tener en cuenta siempre los protocolos de presentación y despedida que existan en la empresa.
   
         .col-lg-4.col-xl.mb-4.mb-xl-0
           .tarjeta-numerada.color-acento-contenido.p-5
             .tarjeta-numerada__numero
-              .h2 3
+              .h2 c
             p.mb-5.mt-4 Aplicar los protocolos de actuación y de atención de llamadas adecuadamente.
         
       .row
         .col-lg-4.col-xl.mb-4.mb-xl-0
           .tarjeta-numerada.color-acento-contenido.p-5
             .tarjeta-numerada__numero
-              .h2 4
+              .h2 d
             p.mb-0 Pensar y actuar con rapidez sin tomar decisiones de manera precipitada y que por consiguiente puedan resultar inoportunas o inadecuadas.
   
         .col-lg-4.col-xl.mb-4.mb-xl-0
           .tarjeta-numerada.color-acento-contenido.p-5
             .tarjeta-numerada__numero
-              .h2 5
+              .h2 e
             p.mb-4 Los criterios de selección y utilización de las pautas de actuación deben hacerse con lógica y responsabilidad.
   
         .col-lg-4.col-xl.mb-4.mb-xl-0
           .tarjeta-numerada.color-acento-contenido.p-5
             .tarjeta-numerada__numero
-              .h2 6
+              .h2 f
             p.mb-5 En el uso de las pautas de actuación se debe ser cercano, afectuoso y tranquilizador en el trato.
   
       p.mt-5 Teniendo en cuenta las pautas, resulta muy importante actuar de acuerdo con las técnicas y habilidades de carácter comunicativo y adecuado, utilizando el mensaje con las características y necesidades de la persona usuaria y de la situación entre sí.

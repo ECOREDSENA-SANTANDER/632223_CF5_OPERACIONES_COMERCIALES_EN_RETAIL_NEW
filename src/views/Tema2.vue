@@ -79,7 +79,7 @@
         h2 2.2 Clasificación de los clientes
   
       p.mb-4 Es una práctica común en muchas empresas para poder gestionar las relaciones de manera más efectiva, cada cliente es diferente y las relaciones que se establecen entre la empresa y los mismos dependen además de los objetivos y la forma de proceder de la empresa, así como del tipo de cliente.
-      p.mb-4 El mercado clasifica los distintos tipos de clientes bajo los criterios que tienen que ver con la relación cliente-empresa. Por ejemplo, según su personalidad, el cliente puede ser: 
+      p.mb-4 El mercado clasifica los distintos tipos de clientes bajo los criterios que tienen que ver con la relación cliente - empresa. Por ejemplo, según su personalidad, el cliente puede ser: 
   
       .row.justify-content-center.align-items-center
         .col-lg-8.col-md-12.col-sm-12
