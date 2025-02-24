@@ -2,13 +2,21 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 32%
+    right: 58%
+    width: 140px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 71%
+    right: 22%
+    width: 140px
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    right: 12%
+    width: 140px
 
 
 @keyframes float1
@@ -17,17 +25,231 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
+  color: #0a0a0a
+
+.titulo-principal.color-secundario .titulo-principal__numero span 
+  color: #0a0a0a
+
+.banner-principal .tarjeta 
+  img, svg 
+    display: auto
+    border-style: hidden
+
+  figure, picture, img, svg 
+    margin: 26px
+    width: 61%
+    float: right
+    margin-left: 15px
+    
+.banner-principal__componente 
+  margin-bottom: 50px
+
+
+.banner-principal__row 
+  justify-content: space-around
+
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/portada.png") !important
+
+.titulo-sexto.color-secundario 
+  border-left-color: #3AE3FE !important
+
+.titulo-segundo:after 
+  content: ''
+  display: block
+  height: 5px
+  width: 140px
+  border-left: solid 50px
+  border-left-color: #3AE3FE
+  background-color: #e8e8e8
+
+// subtitulos
+
+.icon 
+  max-width: 35px
+  left: 65px
+  position: absolute
+
+.bg-img-blue
+  padding: 14px
+  background-color: #0D66BF
+  border-radius: 0px 0px 50px 0px
+
+// fondos y bordes
+
+.borde-redondo
+  border-radius: 25px
+
+.borde-redondo-abajo
+  border-bottom-left-radius: 20px
+  border-bottom-right-radius: 20px
+
+.borde-redondo-arriba
+  border-top-left-radius: 20px
+  border-top-right-radius: 20px
+
+.bgrosado
+  background-color: #FFCEC6
+
+.bgrosado2
+  background-color: #FFEAE7
+
+.bgnaranjaoscuro
+  background-color: #CC5B4A
+
+.bgnaranjaoscuro2
+  background-color: #994437
+
+.bgnaranja
+  background-color: #FF725D
+
+.bgazulclaro
+  background-color: #DCF2FC
+
+.bgazuloscuro
+  background-color: #53BCED
+
+// slyder tema 1
+
+.fondo1
+  background: url('../assets/curso/temas/tema1/fondo1.jpg')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem
+
+.tarjetaf
+  background-color: #fff
+  border-radius: 15px
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  width: 50px
+  height: 50px
+  background-color: #FFDC39
+  border-radius: 50%
+  color: #0D66BF
+
+.slyder-a__bullets__item
+    background-color: #D2E1F1
+    border-color: #D2E1F1
+
+.slyder-a__bullets__item--active 
+    background-color: #0D66BF
+    border-color: #727997
+    opacity: 1
+
+//viñetas
   
-  
-.banner-principal .tarjeta
-  background-position: left 50% !important
+.texto-azul
+  color: #0D66BF
 
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
+.texto-naranja
+  color: #FF725D
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
+.fa-ol
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 20px
+      font-size: 1.4rem
 
-figcaption
-  font-weight: normal
- 
+.fas.fa-corneta:before 
+  content: url('../assets/curso/temas/speaker.svg')
+
+///////// Card hover --------------------------------------
+
+.crd_hover_txt
+  position: relative
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: 10px
+.crd_hover_txt .crd_hover_txt--body
+  position: absolute
+  padding: 1.5rem
+  width: 100%
+  bottom: 0
+  transition: all .5s ease-in-out
+  transform: translateY(calc(100% - 3.85rem))
+
+.crd_hover_txt:hover .crd_hover_txt--body
+  transition: all .5s ease-in-out
+  transform: translateY(0)
+  background-color: #0D66BF !important
+.crd_hover_txt:hover .crd_hover_txt--body *
+  color: #fff !important
+
+.cambio
+  background-color: #FF725D
+
+// tab A
+
+.tabs-a__tab
+  background-color: #FF725D
+
+// cajon primario azul
+
+.cajon.color-primario 
+  background-color: #D4EEFB
+
+// acordeon
+
+.tarjeta--azul
+  background-color: #FF725D
+
+.acordion__accion__btn--b 
+    border: 1px solid #FFD947
+    background-color: #FFD947
+    color: #0D66BF
+
+.estilo1.acordion__activo
+  background: #F7CAC3
+
+  // linea de tiempo
+
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right 
+  border: 2px solid #FFD947
+  background-color: #FFD947
+  color: #0D66BF
+
+// Ajustes Validación Maquetación
+
+
+
+.slyder-a__bullets__item--active 
+
+@media (max-width: 768px) 
+    .slyder-a__bullets__item 
+        width: 11px
+        height: 11px
+        margin: 0px 0.5px
+
+@media (max-width: 768px)  
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 30px
+    height: 30px
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+    width: 50px
+    height: 50px
+    background-color: #FFD947
+    border-radius: 50%
+    background-repeat: no-repeat
+    background-size: 16px 24px
+    background-position: center
+    border: 1px solid #D8ECFF
+    z-index: 10000
+    opacity: 0.7
+    box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0.3)
+    transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+    cursor: pointer
+
+// ajuste validación
+
+.textogrande
+  font-size: 1.3em
