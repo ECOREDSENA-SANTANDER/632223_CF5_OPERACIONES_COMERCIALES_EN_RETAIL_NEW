@@ -106,22 +106,22 @@
             ul.lista-ul.mb-0.p-3
               li.d-flex.mb-0
                 i.fas.fa-corneta
-                p.mb-0 #[b Origen de Componentes y Circunstancias:] información sobre el origen de los componentes del producto, las circunstancias relacionadas con el mismo, o las situaciones específicas del servicio.
+                p.mb-0 #[b Origen de componentes y circunstancias:] información sobre el origen de los componentes del producto, las circunstancias relacionadas con el mismo, o las situaciones específicas del servicio.
           .row.bgrosado.borde-redondo.mb-2.p-2
             ul.lista-ul.mb-0.p-3
               li.d-flex.mb-0
                 i.fas.fa-corneta
-                p.mb-0 #[b Historia de Procesos y Procedimientos:] detalle sobre la historia de los procesos o procedimientos aplicados al producto o al servicio.
+                p.mb-0 #[b Historia de procesos y procedimientos:] detalle sobre la historia de los procesos o procedimientos aplicados al producto o al servicio.
           .row.bgrosado.borde-redondo.mb-2.p-2
             ul.lista-ul.mb-0.p-3
               li.d-flex.mb-0
                 i.fas.fa-corneta
-                p.mb-0 #[b Distribución, Monitoreo y Servicio Postventa:] información sobre la distribución y el monitoreo de la entrega del producto o servicio, así como sobre el servicio postventa y la satisfacción del cliente.
+                p.mb-0 #[b Distribución, monitoreo y servicio postventa:] información sobre la distribución y el monitoreo de la entrega del producto o servicio, así como sobre el servicio postventa y la satisfacción del cliente.
           .row.bgrosado.borde-redondo.mb-2.p-2
             ul.lista-ul.mb-0.p-3
               li.d-flex.mb-0
                 i.fas.fa-corneta
-                p.mb-0 #[b Análisis de Seguimiento:] análisis del seguimiento del producto, servicio, o de bienes sustitutos o complementarios.
+                p.mb-0 #[b Análisis de seguimiento:] análisis del seguimiento del producto, servicio, o de bienes sustitutos o complementarios.
         .col-8.col.md-8.col-lg-4
           img(src='@/assets/curso/temas/tema5/imagen5.png', alt='Texto que describa la imagen')
   
@@ -168,7 +168,7 @@
       #t_5_2.titulo-segundo.mb-5
         h2 5.2 Tipos de herramientas de evaluación de satisfacción del cliente
       
-      p.mb-4 Existen infinidad de herramientas para la evaluación de la satisfacción del cliente a continuación, se expone los dos métodos más comunes para medir la satisfacción del cliente:
+      p.mb-4 Existen infinidad de herramientas para la evaluación de la satisfacción del cliente a continuación, se exponen los dos métodos más comunes para medir la satisfacción del cliente:
   
       .mb-5.d-flex.ps-lg-0
         .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue

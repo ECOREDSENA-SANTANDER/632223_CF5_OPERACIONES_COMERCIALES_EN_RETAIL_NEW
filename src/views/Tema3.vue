@@ -226,12 +226,12 @@
               ul.lista-ul.mb-0
                 li.d-flex.mb-0
                   i.fas.fa-check-circle.texto-naranja
-                  p.mb-0 Buenos tardes.
+                  p.mb-0 Buenas tardes.
             .col-sm-12.col-md-2.col-lg-2
               ul.lista-ul.mb-0
                 li.d-flex.mb-0
                   i.fas.fa-check-circle.texto-naranja
-                  p.mb-0 Buenos noches.
+                  p.mb-0 Buenas noches.
             .col-sm-12.col-md-2.col-lg-2
               ul.lista-ul.mb-0
                 li.d-flex.mb-0

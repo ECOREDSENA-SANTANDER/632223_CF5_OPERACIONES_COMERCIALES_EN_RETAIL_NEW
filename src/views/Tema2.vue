@@ -11,7 +11,7 @@
         .col-8.col.md-8.col-lg-3
           img.p-2(src='@/assets/curso/temas/tema2/imagen1.png', alt='')
         .col-sm-12.col-md-12.col-lg-5.bgazulclaro.borde-redondo
-          p.mt-3.ps-3.mb-2 Para una correcta atención del cliente, es necesario tener claro:
+          p.mt-3.ps-3.mb-2 Para una correcta atención al cliente, es necesario tener claro:
           ul.lista-ul.mb-0.ps-3
             li.d-flex.mb-0
               i.fas.fa-check-circle.texto-azul
@@ -145,7 +145,7 @@
                   img(alt="" src="@/assets/curso/temas/tema2/sly1-3.png")
               .row.justify-content-center.p-4
                 .col-lg-7.col-md-12.col-sm-12
-                  p.mb-4 El mercado debe plantear unas actividades de comunicación de marketing para la venta personal y también hacer campañas de publicidad para generar expectativas sobre sus productos y servicios. Para el comercio es muy importante la imagen que tengan las empresas tanto a nivel local como global.
+                  p.mb-4 El mercado debe plantear unas actividades de comunicación de #[em marketing] para la venta personal y también hacer campañas de publicidad para generar expectativas sobre sus productos y servicios. Para el comercio es muy importante la imagen que tengan las empresas tanto a nivel local como global.
                 .col-lg-4.col-md-6.col-9
                   img(alt="" src="@/assets/curso/temas/tema2/sly1-4.png")
               .row.justify-content-center.p-4

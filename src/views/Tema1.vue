@@ -43,7 +43,7 @@
               .row.justify-content-center.p-4
                 .col-lg-7.col-md-12.col-sm-12
                   h4.mb-4 Plaza
-                  p.mb-4 Se refiere a los canales donde se comercializa el producto o servicio al consumidor. La distribución se realiza desde el área de despacho de la empresa, hasta que lo recibe el consumidor. Este proceso incluye logística, puntos de venta #[em offline] y comercio #[em online (ecommerce)].
+                  p.mb-4 Se refiere a los canales donde se comercializa el producto o servicio al consumidor. La distribución se realiza desde el área de despacho de la empresa, hasta que lo recibe el consumidor. Este proceso incluye logística, puntos de venta #[em offline] y comercio #[em online (e-commerce)].
                 .col-lg-4.col-md-6.col-9
                   img(alt="" src="@/assets/curso/temas/tema1/sly1-3.png")
               .row.justify-content-center.p-4
@@ -75,7 +75,7 @@
   
       .row.justify-content-center.align-items-center.mb-5
         .col-sm-12.col-md-12.col-lg-5.bgazulclaro.borde-redondo
-          p.p-3 La omnicanalidad es una estrategia de marketing que busca proporcionar una experiencia integral y coherente a los clientes, utilizando una combinación de canales #[em online] y #[em offline]. En lugar de tratar cada canal de manera aislada, la omnicanalidad se centra en integrar todos los puntos de contacto disponibles para el cliente, como redes sociales (Facebook, Instagram), aplicaciones de mensajería (WhatsApp), correo electrónico, sitios #[em web, blogs] y otros medios.
+          p.p-3 La omnicanalidad es una estrategia de #[em marketing] que busca proporcionar una experiencia integral y coherente a los clientes, utilizando una combinación de canales #[em online] y #[em offline]. En lugar de tratar cada canal de manera aislada, la omnicanalidad se centra en integrar todos los puntos de contacto disponibles para el cliente, como redes sociales (Facebook, Instagram), aplicaciones de mensajería (WhatsApp), correo electrónico, sitios #[em web, blogs] y otros medios.
         .col-8.col.md-8.col-lg-3
           img.p-2(src='@/assets/curso/temas/tema1/imagen3.png', alt='')
   
