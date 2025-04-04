@@ -5,7 +5,7 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 2
-        h1 Atender al cliente en el #[em Retail]
+        h1 Atender al cliente en el #[em retail]
   
       .row.justify-content-center.align-items-center
         .col-8.col.md-8.col-lg-3

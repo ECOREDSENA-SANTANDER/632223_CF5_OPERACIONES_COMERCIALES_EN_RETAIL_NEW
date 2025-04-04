@@ -5,7 +5,7 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 1
-        h1 Definiciones en el #[em Retail]
+        h1 Definiciones en el #[em retail]
   
       p.mb-5 En este proceso de aprendizaje, en torno a la atención al cliente es bueno precisar y / o recordar ciertos conceptos que nos servirán de insumo para el desarrollo temático.
   

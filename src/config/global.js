@@ -1,8 +1,8 @@
 export default {
   global: {
-    Name: 'Atención al Cliente en el <i>Retail</i>',
+    Name: 'Atención al cliente en el <i>retail</i>',
     Description:
-      'El propósito de este componente de formación es ayudar a los aprendices a desarrollar una excelente Atención al Cliente teniendo en cuenta que es muy importante en el mercado y de su buena atención depende la fidelización y aumento de la clientela.',
+      'El propósito de este componente de formación es ayudar a los aprendices a desarrollar una excelente atención al cliente teniendo en cuenta que es muy importante en el mercado y de su buena atención depende la fidelización y aumento de la clientela.',
     imagenBannerPrincipal: require('@/assets/curso/portada/imagen.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -36,13 +36,13 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Definiciones en el <i>Retail</i>',
+        titulo: 'Definiciones en el <i>retail</i>',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Atender al cliente en el <i>Retail</i>',
+        titulo: 'Atender al cliente en el <i>retail</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
