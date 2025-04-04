@@ -3,30 +3,264 @@
     BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
   
-      .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
-        .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
-          .tarjeta.h-100.d-flex.align-items-center.p-4
-            figure
-              img(src="@/assets/template/completar-espacios-nuevo.svg", alt="Texto que describa la imagen")
-        .col-12.col-md-8.col-lg-9
-          .titulo-segundo
-            h2 Conceptos de Atención al Cliente en el Retail.
-          p.mb-4 #[b Identificar la apropiación de los contenidos en la temática sobre Atención al Cliente en el Retail. ] 
-          .tarjeta.actividad.p-3
-            .row.justify-content-around.align-items-center            
-              .col-sm.mb-3.mb-sm-0
-                p.fw-bold.mb-0 Completar espacios
-              .col-auto
-                a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
-                  span Realizar
-                  i.fas.fa-puzzle-piece
-                  
+      #Actividad                
+        <Actividad :cuestionario="cuestionario"/>
+  
   </template>
 
 <script>
+import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
 export default {
-  name: 'Actividad',
+  name: 'ActividadDidactica',
+  components: {
+    Actividad,
+  },
+  data: () => ({
+    cuestionario: {
+      tema: 'Atención al cliente en el <i>retail</i>',
+      titulo: 'Cuestionario',
+      introduccion:
+        '<b> Objetivo:</b> Evaluar la comprensión y apropiación de los conceptos fundamentales sobre atención al cliente en el <i>retail</i>, como complemento para su formación académica.',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
+      barajarPreguntas: false,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            'El Mercadeo <i>Mix</i> analiza el comportamiento de consumidores y clientes para implementar acciones que satisfagan sus necesidades.',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <i>retail</i>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 2,
+          texto:
+            'El mercado no clasifica los distintos tipos de clientes bajo los criterios que tienen que ver con la relación cliente-empresa, porque esta no es su función.',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <i>retail</i>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 3,
+          texto:
+            'El protocolo de atención al cliente es esencial, ya que define cómo deben actuar los empleados en la atención y ventas, detallando los procedimientos de interacción con los clientes.',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <i>retail</i>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 4,
+          texto:
+            'El sistema PQRS es un proceso estructurado que se enfoca en la gestión de recursos financieros dentro de un establecimiento comercial.',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <i>retail</i>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 5,
+          texto:
+            'Es fundamental considerar que, para posicionar un producto en el mercado, es necesario analizar la existencia de demanda.',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <i>retail</i>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 6,
+          texto:
+            'La comunicación asertiva en el servicio al cliente es clave, ya que permite expresarse respetuosa y sinceramente sin causar daño a los demás.',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <i>retail</i>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 7,
+          texto:
+            'Mantener una presencia agradable es clave en el protocolo empresarial, una vestimenta adecuada y un comportamiento apropiado.',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <i>retail</i>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 8,
+          texto:
+            'En la cadena logística, la trazabilidad del servicio no debe considerarse, ya que una vez despachada la mercancía, la responsabilidad recae fuera del vendedor.',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <i>retail</i>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 9,
+          texto:
+            'Recopilar, evaluar, procesar, analizar y difundir son aspectos fundamentales en el ciclo de la información.',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <i>retail</i>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 10,
+          texto:
+            'La forma más efectiva de medir la satisfacción del cliente es mediante encuestas, ya que, según las estadísticas, el 98% de los clientes destinan su tiempo a responderlas.',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <i>retail</i>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+      ],
+      mensaje_final_aprobado:
+        '¡Excelente trabajo! posee una buena comprensión sobre atención al cliente en el <i>retail</i>. ¡Siga explorando este fascinante mundo!',
+      mensaje_final_reprobado:
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
 }
 </script>
-
-<style lang="sass"></style>
