@@ -44,7 +44,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <i>retail</i>.',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <em>retail</em>.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -67,7 +67,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <i>retail</i>.',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <em>retail</em>.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -90,7 +90,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <i>retail</i>.',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <em>retail</em>.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -113,7 +113,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <i>retail</i>.',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <em>retail</em>.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -136,7 +136,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <i>retail</i>.',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <em>retail</em>.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -159,7 +159,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <i>retail</i>.',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <em>retail</em>.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -182,7 +182,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <i>retail</i>.',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <em>retail</em>.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -205,7 +205,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <i>retail</i>.',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <em>retail</em>.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -228,7 +228,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <i>retail</i>.',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <em>retail</em>.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -251,13 +251,13 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <i>retail</i>.',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de atención al cliente en el <em>retail</em>.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
       ],
       mensaje_final_aprobado:
-        '¡Excelente trabajo! posee una buena comprensión sobre atención al cliente en el <i>retail</i>. ¡Siga explorando este fascinante mundo!',
+        '¡Excelente trabajo! posee una buena comprensión sobre atención al cliente en el <em>retail</em>. ¡Siga explorando este fascinante mundo!',
       mensaje_final_reprobado:
         'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
