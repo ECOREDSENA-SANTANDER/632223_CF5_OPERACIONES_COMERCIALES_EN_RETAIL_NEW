@@ -275,7 +275,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Escudero Serrano, M. J. (2012). Comunicación y atención al cliente. Ediciones Paraninfo, SA.',
+        'Blanco García, C. (2013). Comunicación y atención al cliente. Madrid, Spain: Macmillan Iberia, S.A.',
       link: '',
     },
     {
@@ -301,13 +301,19 @@ export default {
     },
     {
       referencia:
-        'Quiñones, M. E. V. (2007). Calidad y servicio. Concepto y herramientas. Universidad de la Sabana.',
+        'Quiñones, M. E. V. (2007). Calidad y servicio. Concepto y herramientas. Universidad de la Sabana.',
       link: '',
     },
     {
       referencia:
-        'Rodrigues N, (21 de enero 2023). Qué es un protocolo empresarial, su importancia y ejemplos.',
-      link: 'https://blog.hubspot.es/sales/protocolo-empresarial',
+        'Mariscal, M. (2009). Manual de proceso de la información. México D.F., Editorial Miguel Ángel Porrúa.',
+      link: '',
+    },
+    {
+      referencia:
+        'Universidad de La Sabana. (2018). Protocolo claves para su gestión (informe técnico). intellectum',
+      link:
+        'https://intellectum.unisabana.edu.co/bitstream/handle/10818/32819/17-Final-Protocolo_split.pdf?sequence=1&isAllowed=y',
     },
   ],
   creditos: [
