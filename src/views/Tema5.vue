@@ -116,7 +116,7 @@
             ul.lista-ul.mb-0.p-3
               li.d-flex.mb-0
                 i.fas.fa-corneta
-                p.mb-0 #[b Distribución, monitoreo y servicio postventa:] información sobre la distribución y el monitoreo de la entrega del producto o servicio, así como sobre el servicio postventa y la satisfacción del cliente.
+                p.mb-0 #[b Distribución, monitoreo y servicio posventa:] información sobre la distribución y el monitoreo de la entrega del producto o servicio, así como sobre el servicio posventa y la satisfacción del cliente.
           .row.bgrosado.borde-redondo.mb-2.p-2
             ul.lista-ul.mb-0.p-3
               li.d-flex.mb-0
